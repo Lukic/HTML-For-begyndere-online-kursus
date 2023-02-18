@@ -1,0 +1,55 @@
+body {
+  background-color: ghostwhite;
+}
+
+strong {
+  background-color: beige;
+}
+
+mark {
+  background-color: aqua;
+}
+
+h2 {
+  color: red;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+a {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.dark {
+  background-color: burlywood;
+}
+
+nav {
+  background-color: gray;
+}
+
+nav a {
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: bisque;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 100px;
+}

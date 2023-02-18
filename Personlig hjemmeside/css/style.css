@@ -1,0 +1,79 @@
+body {
+  background-color: #2b2d38;
+  background-image: url("../assets/ornament.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+}
+
+.hero {
+  padding: 100px 160px 0 160px;
+}
+
+nav {
+  padding: 30px 160px;
+}
+
+.about-me {
+  background-color: #21232c;
+  padding: 160px 150px;
+}
+
+.about-me p {
+  width: 100%;
+  max-width: 680px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #8747fd;
+  font-size: 18px;
+  padding: 18px 64px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+h1,
+h2 {
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 70px;
+  margin: 0;
+}
+
+p,
+a {
+  color: #ffffff80;
+  text-decoration: none;
+}
+
+nav a {
+  font-size: 18px;
+  margin-right: 45px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}
+
+ul li {
+  display: inline-block;
+  background-color: #21232c;
+  padding: 50px 83px 30px 83px;
+  text-align: center;
+
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}

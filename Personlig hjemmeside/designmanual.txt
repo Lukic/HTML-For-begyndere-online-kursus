@@ -1,0 +1,17 @@
+- Farver
+
+body : #2B2D38
+section om mig : #21232C
+knap / lilla: #8747FD
+Overskrifter: #FFFFFF
+Brødtekst/menu-links: #ffffff80
+
+- Skriftstørrelser
+
+Overskrifter: 80px
+Underoverskrifter: 70px
+Menu-links/ knap: 18px
+Brødtekst / de 3 links i bokse: 24px
+
+
+

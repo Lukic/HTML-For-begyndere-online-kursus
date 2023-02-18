@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Kursus - Formular</title>
+  </head>
+  <body>
+    <form method="post" action="">
+      <label for="clientname"
+        >Skriv dit navn:
+        <input
+          type="text"
+          navn="clientname"
+          id="clientname"
+          placeholder="Dit navn"
+        />
+      </label>
+
+      <label for="clientname"
+        >Skriv din adgangskode:
+        <input
+          type="password"
+          navn="password"
+          id="password"
+          placeholder="Skriv din adgangskode"
+        />
+      </label>
+
+      <label>
+        Skriv din e-mail:
+        <input
+          type="email"
+          navn="clientmail"
+          id="clientmail"
+          placeholder="Skriv din e-mail"
+        />
+      </label>
+
+      <label>
+        Vælg en dato:
+        <input type="date" name="nextmeeting" id="nextmeeting" />
+      </label>
+
+      <fieldset>
+        <legend>Vælg ydelser:</legend>
+        <label
+          >Design:
+          <input type="checkbox" name="design" id="design" />
+        </label>
+        <label
+          >Web:
+          <input type="checkbox" name="web" id="web" />
+        </label>
+        <label
+          >SEO:
+          <input type="checkbox" name="seo" id="seo" />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Vælg OS:</legend>
+        <label
+          >Windows:
+          <input type="radio" name="clientos" value="Windows" id="Windows" />
+        </label>
+        <label
+          >Linux:
+          <input type="radio" name="clientos" value="Linux" id="Linux" />
+        </label>
+        <label
+          >MacOS:
+          <input type="radio" name="clientos" value="MAC" id="MAC" />
+        </label>
+      </fieldset>
+      <label>
+        Skriv din bemærkning
+        <textarea placeholder="Skriv din bemærkning"></textarea>
+      </label>
+
+      <fieldset>
+        <button type="reset">Slet alt</button>
+        <button type="submit">Send</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
